@@ -1,0 +1,27 @@
+{
+  "name": "string-calculator",
+  "version": "1.0.0",
+  "description": "String Calculator TDD JavaScript",
+  "main": "stringCalculator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javimartel/string-calculator-js.git"
+  },
+  "keywords": [
+    "StringCalculator",
+    "TDD",
+    "JavaScript"
+  ],
+  "author": "Javi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Javimartel/string-calculator-js/issues"
+  },
+  "homepage": "https://github.com/Javimartel/string-calculator-js#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
