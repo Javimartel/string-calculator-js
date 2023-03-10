@@ -3,11 +3,7 @@ function stringCalculator(string) {
         return "0";
     }
     let array = string.split(',');
-    let sum = 0;
-    for (let i = 0; i < array.length; i++) {
-        sum += parseInt(array[i]);
-    }
-    return sum.toString();
+    return array.reduce((a, b) => parseInt(a) + parseInt(b)).toString();
 }
 
 module.exports = stringCalculator;
