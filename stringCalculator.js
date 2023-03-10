@@ -1,5 +1,8 @@
 function stringCalculator(string) {
-    return "0";
+    if (string === '') {
+        return "0";
+    }
+    return string;
 }
 
 module.exports = stringCalculator;
