@@ -1,4 +1,4 @@
-# String Calulator TDD 
+# String Calculator TDD 
 
 Esto es una Kata de String Calculator utilizando TDD en JavaScript.
 
